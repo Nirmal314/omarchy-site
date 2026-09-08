@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { GlobeIcon } from '@/components/icons/GlobeIcon'
 import { Button } from '@/components/ui/button'
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { hasTranslation, language, locale, locales, t } from '@/i18n/site'
+import { hasTranslation, language, locale, sortedLocales, t } from '@/i18n/site'
 
 function flag(domain: string, countryCode?: string) {
   const country = countryCode ?? new URL(domain).hostname.split('.').at(-1)!
@@ -59,7 +59,7 @@ export function LanguageSwitcher({ path }: { path: string }) {
                 running underneath it. */}
             <ScrollArea scrollbarGutter>
               <nav aria-label={t('Language')}>
-                {Object.entries(locales).map(([code, entry]) => {
+                {sortedLocales.map(([code, entry]) => {
                   const destination = entry.domain
                   return (
                     <a
