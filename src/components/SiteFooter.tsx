@@ -4,7 +4,7 @@ import { OmarchyWordmark } from '@/components/Brand'
 import { PixelBackdrop } from '@/components/HeroShader'
 import {
   CloudflareMark,
-  DigitalOceanLogo,
+  DigitalOceanMark,
   ThirtySevenSignalsMark,
 } from '@/components/PartnerLogos'
 import { useTopLink } from '@/lib/hash-scroll'
@@ -133,12 +133,9 @@ export function SiteFooter({ path }: { path: string }) {
               </p>
               <p data-quiet>
                 {t('Compute by')}{' '}
-                <a
-                  href="https://www.digitalocean.com"
-                  aria-label="DigitalOcean"
-                  className={creditLink}
-                >
-                  <DigitalOceanLogo className="inline-block h-4 w-auto shrink-0 align-[-0.2em]" />
+                <a href="https://www.digitalocean.com" className={creditLink}>
+                  <DigitalOceanMark className="mr-[5px] inline-block size-4 shrink-0 align-[-0.2em]" />
+                  DigitalOcean
                 </a>
               </p>
             </div>
