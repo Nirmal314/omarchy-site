@@ -1,4 +1,4 @@
-import { t, language, locales, hasTranslation } from '@/i18n/site'
+import { t, language, sortedLocales, hasTranslation } from '@/i18n/site'
 import { Link } from '@tanstack/react-router'
 import { OmarchyWordmark } from '@/components/Brand'
 import { PixelBackdrop } from '@/components/HeroShader'
@@ -160,7 +160,7 @@ export function SiteFooter({ path }: { path: string }) {
           aria-label={t('Language')}
           className="mt-8 flex flex-wrap gap-x-4 gap-y-2 text-sm"
         >
-          {Object.entries(locales)
+          {sortedLocales
             .filter(([code]) => hasTranslation(code, currentPath))
             .map(([code, entry]) => (
               <a

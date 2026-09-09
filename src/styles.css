@@ -1141,6 +1141,7 @@ h6 {
    be seen in the same frame. */
 [data-nav-blend] [data-nav-links] a,
 [data-nav-blend] [data-nav-glyph]:hover,
+[data-nav-blend] [data-nav-glyph][aria-expanded='true'],
 [data-nav-blend] [data-nav-toggle]:hover {
   background-color: transparent;
   transition: none;
