@@ -90,5 +90,9 @@
   "omacom-foundation-hires-outfoxxed": {
     "title": "มูลนิธิ Omacom จ้าง outfoxxed เป็นหัวหน้า Omarchy Shell",
     "sourceHash": "6b4c4987fc67ebfbd0295a23520056d21819c360a0932aec9a894ddf9edc6c15"
+  },
+  "digitalocean-joins-as-founding-corporate-patron": {
+    "title": "DigitalOcean เข้าร่วมเป็นผู้อุปถัมภ์องค์กรผู้ก่อตั้งด้วยเงิน $3 ล้าน",
+    "sourceHash": "9619006b80c5dbebf99d2fd691d1fd3294ac303c20e41cb8dba14cad9dd2381f"
   }
 }
