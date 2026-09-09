@@ -1128,7 +1128,7 @@ h6 {
 }
 
 /* Hide real labels while the blended copy is visible to avoid double painting. */
-[data-nav-blend] nav[aria-label='Main'] a,
+[data-nav-blend] [data-nav-links] a,
 [data-nav-blend] [data-nav-glyph],
 [data-nav-blend] [data-nav-toggle] {
   color: transparent;
@@ -1139,8 +1139,9 @@ h6 {
    painted through one comes out near enough black. Hovering hands the labels
    back to the real layer anyway - this is only here so that the two can never
    be seen in the same frame. */
-[data-nav-blend] nav[aria-label='Main'] a,
+[data-nav-blend] [data-nav-links] a,
 [data-nav-blend] [data-nav-glyph]:hover,
+[data-nav-blend] [data-nav-glyph][aria-expanded='true'],
 [data-nav-blend] [data-nav-toggle]:hover {
   background-color: transparent;
   transition: none;
