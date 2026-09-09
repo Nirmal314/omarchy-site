@@ -5,8 +5,37 @@
     <link>https://omarchy.org/news</link>
     <description>Notes on the people, ideas, and releases shaping Omarchy.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 20:08:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 08:26:00 GMT</lastBuildDate>
     <atom:link href="https://omarchy.org/news/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+  <title>Omacom Foundation hires outfoxxed as Head of Omarchy Shell</title>
+  <link>https://omarchy.org/news/2026/09/omacom-foundation-hires-outfoxxed</link>
+  <guid isPermaLink="true">https://omarchy.org/news/2026/09/omacom-foundation-hires-outfoxxed</guid>
+  <pubDate>Wed, 09 Sep 2026 08:26:00 GMT</pubDate>
+  <dc:creator>DHH</dc:creator>
+  <description><![CDATA[The creator of Quickshell joins the foundation full time to lead Omarchy Shell and becomes a member of Omarchy Core, replacing the previously announced sponsorship.]]></description>
+  <content:encoded><![CDATA[<p>We’re hiring <a href="https://x.com/outfoxxedd">outfoxxed</a>, the creator of <a href="https://quickshell.org/">Quickshell</a>, as <strong>Head of Omarchy Shell</strong>! He’s joining the <a href="https://omarchy.org/foundation/">Omacom Foundation</a> full time and becoming a member of <a href="https://omarchy.org/teams/">Omarchy Core</a>. The person who built the toolkit that made Quattro possible is coming aboard to help us launch the whole thing to the moon.</p>
+
+<p>This supersedes the <a href="https://omarchy.org/news/2026/08/omacom-foundation-to-be-premier-quickshell-sponsor/">three-year Quickshell sponsorship we announced in August</a>. Instead of that sponsorship, outfoxxed will be a full-time employee of the Omacom Foundation, leading our work on Omarchy Shell. We’re putting the creator right at the center of what we’re building.</p>
+
+<p>Shell is pivotal to the agentic OS we’re making. It’s the bar, the menus, the notifications, the widgets, and all the little interactions that make the computer feel like yours. Quickshell gives us the building blocks to shape that experience in QML. Combine that with agents that are incredibly good at writing QML, and suddenly changing your desktop is something you can ask for, try, and share.</p>
+
+<p>The proof is in the plugins! When we announced the sponsorship, the community had already created over a thousand in Quattro’s first week. Now <a href="https://plugins.omarchy.org/">the catalogue has close to three thousand plugins</a>. Games you can play right from the bar, panels that track your coding agents, music players, and even a cat that wanders along your bar waiting to be petted. People are taking a system that used to feel fixed and making it their own. That’s the malleable computer coming to life.</p>
+
+<p>Having the creator of Quickshell on board means we can work on the whole stack together. Make the shell faster and more reliable. Make it easier to build a great plugin. Improve the foundations when a plugin author runs into a limitation. Turn what we’re learning from thousands of experiments into a better experience for everyone who boots Omarchy. And ensure the whole thing is safe and secure.</p>
+
+<p>And by joining Omarchy Core, outfoxxed will help set the direction for the distro as a whole. Shell is too central to the experience to be an afterthought. It’s where so much of the beauty, the fun, and the possibilities of an agentic OS become something you can actually see and use.</p>
+
+<p>outfoxxed is the Omacom Foundation’s second full-time hire, following <a href="https://omarchy.org/news/2026/09/omacom-foundation-hires-krzysztof-wilczynski/">Krzysztof Wilczyński, our Head of Omarchy Kernel</a>. With the people leading both Kernel and Shell on board, we’re investing in the foundations of the whole experience. You can meet <a href="https://omarchy.org/staff/">the foundation’s staff</a> on the site.</p>
+
+<p>We’ll continue to hire by invitation as we find the right people through their work in the community. (Please don’t flood my inbox with CVs!)</p>
+
+<p>This is what the foundation’s backing lets us do: give exceptional open-source developers the time to go all in. Thanks to <a href="https://omarchy.org/patrons/">everyone funding that work</a>, we’re turning more of our ambitions into full-time jobs.</p>
+
+<p>Welcome aboard, outfoxxed! Let’s make this computer even more malleable.</p>
+]]></content:encoded>
+</item>
+
 <item>
   <title>Omacom Foundation raises another half a million dollars!</title>
   <link>https://omarchy.org/news/2026/09/omacom-foundation-raises-another-half-a-million-dollars</link>
@@ -400,8 +429,10 @@
   <guid isPermaLink="true">https://omarchy.org/news/2026/08/omacom-foundation-to-be-premier-quickshell-sponsor</guid>
   <pubDate>Mon, 24 Aug 2026 10:49:00 GMT</pubDate>
   <dc:creator>DHH</dc:creator>
-  <description><![CDATA[More money in , more money out! Our second major sponsorship from the Omacom Foundation is going to outfoxxed for his superb work on Quickshell . It’s only been part of the public release for a week, but it’s already crystal clear that it…]]></description>
-  <content:encoded><![CDATA[<p><a href="https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m">More money in</a>, more money out! Our second major sponsorship from the Omacom Foundation is going to <a href="https://x.com/outfoxxedd">outfoxxed</a> for his superb work on <a href="https://quickshell.org/">Quickshell</a>. It’s only been part of the public release for a week, but it’s already crystal clear that it was the missing, pivotal piece for us to truly achieve <a href="https://world.hey.com/dhh/the-malleable-computer-7c187a9b">The Malleable Computer</a>.</p>
+  <description><![CDATA[Update, September 9, 2026: This sponsorship has been superseded by outfoxxed joining the Omacom Foundation full time as Head of Omarchy Shell and a member of Omarchy Core . More money in , more money out! Our second major sponsorship from…]]></description>
+  <content:encoded><![CDATA[<p><strong>Update, September 9, 2026:</strong> This sponsorship has been superseded by <a href="https://omarchy.org/news/2026/09/omacom-foundation-hires-outfoxxed/">outfoxxed joining the Omacom Foundation full time as Head of Omarchy Shell and a member of Omarchy Core</a>.</p>
+
+<p><a href="https://omarchy.org/news/2026/08/omacom-foundation-funding-hits-10m">More money in</a>, more money out! Our second major sponsorship from the Omacom Foundation is going to <a href="https://x.com/outfoxxedd">outfoxxed</a> for his superb work on <a href="https://quickshell.org/">Quickshell</a>. It’s only been part of the public release for a week, but it’s already crystal clear that it was the missing, pivotal piece for us to truly achieve <a href="https://world.hey.com/dhh/the-malleable-computer-7c187a9b">The Malleable Computer</a>.</p>
 
 <p>The proof is in the plugins! <a href="https://omarchyplugins.com/">Over one thousand plugins</a> have been created in the week that <a href="https://github.com/omacom/omarchy/releases/tag/v4.0.0">Quattro</a> has been out. That’s an absolutely astounding testament to the technical flexibility of Quickshell, and how much agents love to write QML code.</p>
 

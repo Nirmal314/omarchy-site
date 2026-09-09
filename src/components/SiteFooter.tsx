@@ -31,6 +31,7 @@ const columns = [
     title: t('Foundation'),
     links: [
       { label: t('About'), splat: 'foundation' },
+      { label: t('Staff'), splat: 'staff' },
       { label: t('Patrons'), splat: 'patrons' },
       { label: t('Sponsorships'), splat: 'sponsorships' },
       { label: t('Artists in Residence'), splat: 'air' },
