@@ -90,13 +90,24 @@ export function SiteFooter({ path }: { path: string }) {
               className="mt-4 text-sm leading-relaxed text-text-muted [text-wrap:pretty]"
             >
               <span className="block">
-                {t('Beautiful, fun & agentic Linux')}{' '}
-                <span className="whitespace-nowrap">
-                  {t('by')}{' '}
-                  <a href="https://dhh.dk" className={footerLink}>
-                    DHH
-                  </a>
-                </span>
+                {language === 'zh-CN' ? (
+                  <>
+                    {t('Beautiful, fun & agentic Linux')}
+                    <a href="https://dhh.dk" className={`block ${footerLink}`}>
+                      {t('By DHH')}
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    {t('Beautiful, fun & agentic Linux')}{' '}
+                    <span className="whitespace-nowrap">
+                      {t('by')}{' '}
+                      <a href="https://dhh.dk" className={footerLink}>
+                        DHH
+                      </a>
+                    </span>
+                  </>
+                )}
               </span>
               <span className="block">
                 {t('The malleable OS for the age of agents.')}
