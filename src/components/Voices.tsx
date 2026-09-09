@@ -1,12 +1,11 @@
+import { t } from '@/i18n/site'
 import { useEffect, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
-import { t } from '@/i18n/site'
 import { PlayIcon, XIcon } from '@/components/icons'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { CardRail } from '@/components/CardRail'
 import voices from '@/data/voices.json'
-import { t } from '@/i18n/site'
 
 /** The wall's height before the fold, on a wide screen. */
 const FOLD_REM = 42
