@@ -23,6 +23,11 @@ export function t(english: string): string {
   return catalogue[english] ?? english
 }
 
+/** A team member's countries, "USA/Denmark", each translated on its own. */
+export function tCountries(meta: string): string {
+  return meta.split('/').map(t).join('/')
+}
+
 export function hasTranslation(code: string, path: string): boolean {
   return (
     Boolean(locales[code]) &&
